@@ -11,4 +11,6 @@ sqlite3
 
 EXPOSE 16000
 
+RUN make all
+
 CMD ["bin/facebooc"]
