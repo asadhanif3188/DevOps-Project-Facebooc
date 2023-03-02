@@ -75,18 +75,19 @@ To execute the application, an image is built from Dockerfile using following co
 
 `docker build -t asadhanif/facebooc:v1 .` 
 
-
+![Build Image](./screenshorts/build-image.png)
 
 ### Step 3: Run the Container
 Run the container with following command:
 
 `docker run -dp 16000:16000 asadhanif/facebooc:v1` 
 
+![Run Container](./screenshorts/run-container.png)
 
 ### Running App
 Open the browser and brows `<ip-address>:16000`
 
-
+![Run App](./screenshorts/running-app.png)
 
 Licensing
 ---------
